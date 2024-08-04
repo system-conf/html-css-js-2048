@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2048 Game</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="game-container">
-        <div id="game-board"></div>
+    <div class="container">
+        <h1>2048 Game</h1>
+        <button id="play-button">Play</button>
+        <button id="restart-button">Restart</button>
+        <div id="game-board">
+            <!-- Game tiles will be dynamically generated here -->
+        </div>
     </div>
-    <script src="script.js"></script>
+    <script src="game.js"></script>
 </body>
 </html>
